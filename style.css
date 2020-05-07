@@ -1,0 +1,28 @@
+/* .bg_color{
+    background-color: rgb(238, 238, 238);
+} */
+.set{
+    width: 200px;
+}
+
+
+@media only screen and (max-width:200px){
+    
+    .set{
+        width: 50px;
+    }
+}
+
+
+.navbar_fix{
+    position: fixed;
+    width: 100%;
+    
+    justify-content: center;
+}
+
+
+.main_pic{
+    display: flex;
+   margin-top: 80px;
+}
